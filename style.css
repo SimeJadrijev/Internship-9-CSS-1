@@ -161,5 +161,68 @@ body{
         border-bottom: 1px dashed rgba(34, 34, 34, 0.7);
     }
 
+    .culture-section{
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .section-intro{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .pre-comment{
+        color: rgba(34, 34, 34, 0.7);
+        text-transform: uppercase;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-style: italic;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .section-topic{
+        margin-top: 0;
+        margin-bottom: 0;
+        color: rgb(44, 0, 34);
+        font-family: 'Helvetica Neue', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-weight: 700;
+        font-size: 30px;
+        
+    }
+
+    .sub-options{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-top: 5px;
+        gap: 15px;
+    }
+
+    .sub-options__each{
+        text-decoration: none;
+        color: rgb(136, 54, 91);
+        cursor: pointer;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-weight:800;
+        font-size: 14px;
+        margin-right: 7px;
+        margin-bottom: 0;
+    }
+
+    .preview{
+        font-family: "Retina Regular", "Helvetica Neue", sans-serif;
+        color: rgb(34, 34, 34);
+        font-size: 16px;
+        margin-top: -15px;
+        padding-top: 0;
+    }
 
 }
