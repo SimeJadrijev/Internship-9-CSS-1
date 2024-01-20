@@ -1,6 +1,5 @@
-*{
+body{
     margin: 0;
-    padding: 0;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 760px) {
@@ -41,6 +40,33 @@
     }
     header img{
         margin-top: 15px;
+    }
+
+    .transitional-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .left-quote{
+        display: flex;
+        justify-content: row;
+        align-items: center;
+    }
+    .left-quote img{
+        width: 27px;
+        height: 30px;
+        padding: 0 10px;
+    }
+    .left-quote h4{
+        color: rgba(34, 34, 34, 0.7);
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: "Retina Regular";
+    }
+
+    .follow-us{
+        display: none;
     }
     
 }
