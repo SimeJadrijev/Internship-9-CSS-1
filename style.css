@@ -68,5 +68,40 @@ body{
     .follow-us{
         display: none;
     }
+
+    .opening-news-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-news{
+        display: flex;
+        flex-direction: column;
+        padding: 15px, 10px, 10px, 5px;
+        align-items: center;
+        text-decoration: none;
+    }
+    .main-news-image{
+        width: 90%;
+        height: auto;
+    }
+
+    .author {
+        text-transform: uppercase;
+        color: rgba(34, 34, 34, 0.85);
+        font-size: 12px;
+        font-family: "Retina Regular";
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .main-news__title {
+        color: rgb(106, 4, 50);
+        margin-top: 0;
+        padding-top: 0;
+        font-weight: 700;
+        /*font-family: */
+    }
     
 }
