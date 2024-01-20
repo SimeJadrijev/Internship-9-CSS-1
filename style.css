@@ -73,18 +73,19 @@ body{
     .opening-news-section{
         display: flex;
         flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .main-news{
         display: flex;
         flex-direction: column;
-        padding: 15px, 10px, 10px, 5px;
-        align-items: center;
+        align-items:flex-start;
         text-decoration: none;
         margin-bottom: 10px;
     }
     .main-news-image{
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
@@ -128,6 +129,12 @@ body{
         font-family: "Retina Regular";
         color: rgb(34, 34, 34);
         margin: 0;
+    }
+
+    .no-picture-news{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
     }
 
 }
