@@ -46,6 +46,7 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 30px;
     }
 
     .left-quote{
@@ -80,6 +81,7 @@ body{
         padding: 15px, 10px, 10px, 5px;
         align-items: center;
         text-decoration: none;
+        margin-bottom: 10px;
     }
     .main-news-image{
         width: 90%;
@@ -104,4 +106,28 @@ body{
         /*font-family: */
     }
     
+    .little-picture-news{
+        display: flex;
+        text-decoration: none;
+    }
+
+    .little-picture{
+        height: 119px;
+        width: 179px;
+
+    }
+
+    .little-picture-news-right{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .regular-news__title{
+        font-size: 17px;
+        font-family: "Retina Regular";
+        color: rgb(34, 34, 34);
+        margin: 0;
+    }
+
 }
