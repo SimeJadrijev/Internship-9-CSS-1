@@ -135,6 +135,31 @@ body{
         text-decoration: none;
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
     }
+
+    .right-side-news__each{
+        text-decoration: none;
+    }
+
+    .right-side-news__topic{
+        text-transform: uppercase;
+        color: rgb(136, 54, 91);
+        font-family: "Retina Regular";
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    
+    .right-side-news__title{
+        color: rgb(34, 34, 34);
+        font-size: 16px;
+        font-family: "Retina Regular";
+        line-height: 18px;
+        font-weight: 100;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px dashed rgba(34, 34, 34, 0.7);
+    }
+
 
 }
