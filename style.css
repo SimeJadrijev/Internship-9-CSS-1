@@ -117,7 +117,7 @@ body{
     .little-picture{
         height: 119px;
         width: 179px;
-
+        
     }
 
 
@@ -133,6 +133,9 @@ body{
         font-family: "Retina Regular";
         color: rgb(34, 34, 34);
         margin: 0;
+    }
+    .regular-news__title:hover{
+        color: rgba(34, 34, 34, 0.3);
     }
 
     .no-picture-news{
@@ -541,8 +544,8 @@ body{
     }
 
     .little-picture{
-        height: 119px;
-        width: 179px;
+        width: 300px !important; 
+        height: auto;
 
     }
 
