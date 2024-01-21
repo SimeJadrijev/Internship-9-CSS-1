@@ -91,7 +91,7 @@ body{
 
     .author {
         text-transform: uppercase;
-        color: rgba(34, 34, 34, 0.85);
+        color: rgba(34, 34, 34, 0.75);
         font-size: 12px;
         font-family: "Retina Regular";
         letter-spacing: 1px;
@@ -223,6 +223,23 @@ body{
         font-size: 16px;
         margin-top: -15px;
         padding-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .culture-section__regular-news{
+        font-size: 14px;
+        font-family: "Retina Regular";
+        color: rgb(34, 34, 34);
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .culture-section__right-side__each{
+        text-decoration: none;
+    }
+
+    .separator{
+        background-color: rgba(34, 34, 34, 0.5);
     }
 
 }
