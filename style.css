@@ -242,4 +242,12 @@ body{
         background-color: rgba(34, 34, 34, 0.5);
     }
 
+    .tech-and-business-section{
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
 }
