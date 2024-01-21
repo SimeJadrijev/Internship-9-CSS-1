@@ -816,5 +816,9 @@ body{
         padding-left: 150px;
         padding-right: 150px;
     }
+    .tech-news{
+        display: flex;
+        flex-direction: row;
+    }
 
 }
